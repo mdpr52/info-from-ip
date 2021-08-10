@@ -11,14 +11,8 @@ except:
 def banner():
     Bb = Fore.LIGHTYELLOW_EX
     print(Bb + """
-        __  __ ____   _____  ____  _   _ 
-        |  \/  |___ \ / ____|/ __ \| \ | |
-        | \  / | __) | |  __| |  | |  \| |
-        | |\/| ||__ <| | |_ | |  | | . ` |
-        | |  | |___) | |__| | |__| | |\  |
-        |_|  |_|____/ \_____|\____/|_| \_|
-    """, Fore.LIGHTGREEN_EX + "\n                  ( @_m3gon )",
-          Fore.LIGHTBLUE_EX + "\n   (This tool is programmed by the programmer : @_m3gon)              \n",
+        __    """, Fore.LIGHTGREEN_EX + "\n                  ( mdpr )",
+          Fore.LIGHTBLUE_EX + "\n   (This tool is programmed by the programmer : @mdpr)              \n",
           Fore.LIGHTYELLOW_EX + "                ( info from ip )\n\n" + Fore.RESET)
 banner()
 def get_information_ip_target():
